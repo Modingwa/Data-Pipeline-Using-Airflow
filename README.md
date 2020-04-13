@@ -2,10 +2,10 @@
 > 
 This project makes use of Apache Airflow to automate and monitor Sparkify's data warehouse pipelines. Airflow's Directed Acyclic Graph (DAG) is used to implement a data pipeline responsible for reading all Sparkify's event logs, processes and create fact and dimensions tables on Amazon RedShift.
 
-A high-level implementation of the pipeline is as shown below:
-![ERD image](/high-level-dag.png)
-The load_dimensions_subdag is a subdag that uses an operator to load data into dimension tables, and it's implementation is as shown in the figure below:
-![ERD image](/sub-dag.png)
+* A high-level implementation of the pipeline is as shown below:
+![ERD image](/high-level-dag.PNG)
+* The load_dimensions_subdag is a subdag that uses an operator to load data into dimension tables, and it's implementation is as shown in the figure below:
+![ERD image](/sub-dag.PNG)
 
 ## Table of contents
 
